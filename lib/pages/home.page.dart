@@ -34,12 +34,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 200,
               ),
 
-              new Image.asset(
-
-                'assets/logo.png',
+              Image.asset(
+                'assets/images/logo.png',
                 width: 100,
-
-                ),
+              ),
 
                  new SizedBox(
                 height: 100,
@@ -95,14 +93,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: const EdgeInsets.symmetric(vertical: 15),
                   ),
                   onPressed: () {},
-                  child: const Padding(
-                    padding: EdgeInsets.all(4.0),
-                    child: Text(
-                      'CONTINUAR COM O FACEBOOK',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 18,
-                      ),
+                  child: const Text(
+                    'CONTINUAR COM O FACEBOOK',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
                     ),
                   ),
                 ),

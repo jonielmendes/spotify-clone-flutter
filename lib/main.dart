@@ -4,6 +4,7 @@ import 'package:spotify_clone/pages/home.page.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
  
   @override
   Widget build(BuildContext context) {
